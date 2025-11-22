@@ -1,0 +1,268 @@
+/* main page */
+
+ body {
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.left-card {
+  background-color: #efe6e0;
+  padding: 60px 40px;
+  min-height: 100vh;
+}
+
+.profile-pic {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.role {
+  letter-spacing: 3px;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #777;
+}
+
+.social-icons i {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #000;
+  transition: 0.3s;
+}
+.social-icons i:hover {
+  color: #007bff;
+}
+
+.btn-primary-custom {
+  background-color: #006CFF;
+  border: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  border-radius: 25px;
+  color: #fff;
+}
+
+#button-cv:hover {
+  background-color: white;
+  padding: 12px 40px;
+  color: #006CFF;
+  border: 2px solid #006CFF;
+  transition: 0.2s;
+}
+
+.btn-outline-dark-custom {
+  padding: 12px 40px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 2px solid #222;
+  background: none;
+}
+
+.hello-title {
+  font-size: 100px;
+  font-weight: 800;
+}
+
+#button-projet:hover {
+  background-color: #000;
+  color: white;
+  transition: 0.3s;
+}
+
+
+/* cv page */
+
+.cv {
+  background: #E5DBCF;
+}
+.logo-square {
+  width: 25px;
+  height: 25px;
+  background: #0d6efd;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.inside {
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.card-custom {
+  border-radius: 35px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,0.15);
+}
+
+.skills-card {
+  border-radius: 35px;
+}
+
+
+.skill-dot {
+  width: 15px;
+  height: 15px;
+  background: #0d6efd;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* page projet  */
+#projet-page {
+  background-color: #e9dfd3;
+  font-family: 'Arial', sans-serif;
+}
+
+/* TITRES SECTION */
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.section-description {
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* BOÎTE DU PROJET */
+.project-box {
+  background: #ffffff;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+/* TEXTE PROJET */
+.project-title {
+  color: #0047ff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.project-role {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.project-text {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* IMAGE */
+.project-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+/* PROJET */
+
+.project-card {
+  width: 850px;
+  height: 520px;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.20);
+}
+
+/* Container du titre collé au bord */
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-left: -25px;  /* Ramène le trait bleu au bord EXACT */
+}
+
+/* Trait bleu collé au bord */
+.blue-bar {
+  width: 6px;
+  height: 28px;
+  background-color: #0047ff;
+  border-radius: 4px;
+}
+
+/* Textes plus petits */
+.project-title {
+  font-weight: 700;
+  color: #0047ff;
+  font-size: 1.4rem;
+}
+
+.project-role {
+  font-weight: 500;
+  color: #555;
+  font-size: 1rem;
+}
+
+.project-text {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #333;
+}
+
+/* Image étirée verticalement */
+.image-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.footer-content {
+  display: inline-block;
+  font-size: 13px; /* petite police */
+  line-height: 1.6;
+}
+
+.contact {
+  margin: 5px 0;
+}
+
+.socials {
+  margin-top: 8px;
+}
+
+.socials a {
+  margin: 0 8px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.socials a:hover {
+  opacity: 0.6;
+}
+
+.contact {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+.socialsv2 {
+  margin-right: 73px;
+}
