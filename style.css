@@ -77,6 +77,31 @@
   transition: 0.3s;
 }
 
+@media (max-width: 768px) {
+
+  .left-card {
+    padding: 20px 20px; /* beaucoup moins que 60px */
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hello-title {
+    font-size: 48px; /* au lieu de 100px */
+  }
+
+  .col-md-8 {
+    padding: 20px !important; /* évite les grands espaces */
+  }
+
+  p, h4 {
+    font-size: 16px;
+  }
+}
+
+
 
 /* cv page */
 
