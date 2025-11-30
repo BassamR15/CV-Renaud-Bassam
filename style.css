@@ -80,24 +80,17 @@
 @media (max-width: 768px) {
 
   .left-card {
-    padding: 20px 20px; /* beaucoup moins que 60px */
-  }
-
-  .profile-pic {
-    width: 120px;
-    height: 120px;
+    min-height: auto !important;
+    padding: 20px !important;
   }
 
   .hello-title {
-    font-size: 48px; /* au lieu de 100px */
+    font-size: 50px !important;
   }
 
-  .col-md-8 {
-    padding: 20px !important; /* évite les grands espaces */
-  }
-
-  p, h4 {
-    font-size: 16px;
+  .col-md-8, .col-12 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
   }
 }
 
@@ -108,29 +101,33 @@
 .cv {
   background: #E5DBCF;
 }
-.logo-square {
-  width: 25px;
-  height: 25px;
-  background: #0d6efd;
-  border-radius: 4px;
-  display: inline-block;
-  margin-right: 10px;
+
+.section-wrapper {
+  width: 100%;
+  max-width: 900px; /* largeur max des cards et headers */
+  margin: 0 auto; /* centrer sur écran large */
+  padding-top: 2rem; /* espace entre navbar et section */
+  padding-bottom: 2rem; /* espace avant footer */
 }
 
-.inside {
-  margin-left: 125px;
-  margin-right: 125px;
+.card-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .card-custom {
   border-radius: 35px;
   box-shadow: 0 1rem 3rem rgba(0,0,0,0.15);
+  width: 100%;
+  margin-bottom: 2rem; /* espace entre les cards */
 }
 
 .skills-card {
   border-radius: 35px;
 }
-
 
 .skill-dot {
   width: 15px;
@@ -141,6 +138,23 @@
   margin-right: 10px;
   vertical-align: middle;
 }
+
+/* Responsive pour mobiles */
+@media (max-width: 767px) {
+  .card-custom, .skills-card {
+    padding: 2rem;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card-header a {
+    margin-top: 10px;
+  }
+}
+
 
 /* page projet  */
 #projet-page {
